@@ -9,7 +9,7 @@ namespace Optika
 {
     class DBconnect
     {
-        MySqlConnection connection = new MySqlConnection("server=localhost; port=3307; username=root; password=23091934; database=optika; Charset=utf8");
+        MySqlConnection connection = new MySqlConnection("server=localhost; port=3307; username=root; password=23091934; database=optika2; Charset=utf8");
 
         public void openConnection()
         {
